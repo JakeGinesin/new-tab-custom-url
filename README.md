@@ -9,3 +9,7 @@ A Cool asf Chrome extension that changes the default URL of a newly opened tab
 3. Enable developer mode
 4. Click "load unpacked" and select the repo's directory on your computer
 5. Bam! Installed :D
+
+# Todo:
+- publish this extension to the chrome store
+- clean up the code and add some more features
