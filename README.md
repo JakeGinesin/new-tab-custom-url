@@ -1,7 +1,7 @@
 # new-tab-custom-url
 A Cool asf Chrome extension that changes the default URL of a newly opened tab
 
-![gif](https://media2.giphy.com/media/gHQXq7uKKr2RLw8sWc/giphy.gif)
+![gif](https://user-images.githubusercontent.com/39607713/120114681-4f7af480-c14e-11eb-88a8-b6b696d2287c.gif))
 
 # How to install:
 1. Downlaod this repo
