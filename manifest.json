@@ -1,10 +1,10 @@
 {
-  "name": "tabber",
+  "name": "new-tab-custom-url",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "tabber"
+    "default_title": "new-tab-custom-url"
   },
   "content_scripts": [
     {

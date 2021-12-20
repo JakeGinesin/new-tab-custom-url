@@ -11,7 +11,7 @@ chrome.storage.local.get(['enabled'], function(items){ //onload...
 // active functions:
 
 document.getElementById("help").addEventListener('click', ()=>{
-  alert("tabber changes the default url of a newly opened tab!");
+  alert("New-tab-custom-url changes the default url of a newly opened tab in chrome! \r\n \r\nThis project is open source. Find the code at: https://github.com/JakeGinesin/new-tab-custom-url");
 });
 
 document.getElementById("change").addEventListener('click', ()=>{
