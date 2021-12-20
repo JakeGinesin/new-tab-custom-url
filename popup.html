@@ -2,22 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      <title>Tabber</title>
+    <link href="tailwind.css" rel="stylesheet">
   </head>
   <body>
+    <style>
+    button:active{
+      border-color:grey;
+    }
+    #enable-box:hover{
+      cursor:pointer;
+    }
+    #enable-box > label:hover{
+      cursor:pointer;
+    }
+    #enable-box > input:hover{
+      cursor:pointer;
+    }
+    </style>
     <div style="width:420px;">
 
-        <div class="flex items-center border-b border-teal-500 text-sm py-2">
-          <input class="bg-transparent border-2 w-full text-gray-700 rounded mr-3 py-1 px-2 ml-2 leading-tight focus:outline-none" type="text" id="url" placeholder="">
-          <button id="change" class="flex-shrink-0 border border-black text-sm py-1 px-2 rounded mr-2" type="button">
+        <div class="flex items-center text-sm py-2">
+          <input class="border-2 w-full text-gray-700 rounded mr-3 py-1 px-2 ml-2 leading-tight" type="text" id="url" placeholder="">
+          <button id="change" class="flex-shrink-0 border border-black text-sm py-1 px-2 rounded mr-2" type="button" >
             Change URL
           </button>
-          <div class="flex-shrink-0 border border-black py-1 px-2 rounded items-center inline-flex">
-            <label for="enabled" class="select-none">Enabled</label>
-            <input type="checkbox" class="form-checkbox ml-1.5" id="enabled" name="enabled" checked>
-          </div>
-          <div id="help" class="select-none border border-black mr-1.5 ml-1.5 rounded px-1 cursor-pointer">?</div>
+          <button class="flex-shrink-0 border border-black py-1 px-2 rounded items-center inline-flex" id="enable-box">
+            <label for="enabled">Enabled</label>
+            <input style="z-index:-1" type="checkbox" class="ml-1.5" id="enabled" name="enabled" checked>
+          </button>
+          <button id="help" class="border border-black mr-1.5 ml-1.5 rounded px-1">?</button>
         </div>
     </div>
     <script src="popup.js" charset="utf-8"></script>
