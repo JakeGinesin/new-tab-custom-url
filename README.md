@@ -7,3 +7,5 @@ A Cool asf Chrome extension that changes the default URL of a newly opened tab
 
 You can find this chrome extension [on the chrome web store](https://chrome.google.com/webstore/detail/new-tab-custom-url/pknneknjkcgapofljjfppcdackmcmnba?)!
 
+# Homepage
+Find the homepage for the project [here](https://jakegines.in/archive/New_Tab_Custom_URL)
